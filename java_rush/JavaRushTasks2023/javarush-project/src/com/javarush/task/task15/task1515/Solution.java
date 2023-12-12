@@ -1,0 +1,29 @@
+package com.javarush.task.task15.task1515;
+
+import java.util.Scanner;
+
+/* 
+Статики-2
+*/
+
+public class Solution {
+    public static int A = 0;
+    public static int B = 0;
+
+    static {
+        Scanner scanner = new Scanner(System.in);
+        A = scanner.nextInt();
+        B = scanner.nextInt();
+        scanner.close();
+    }
+
+    public static int MIN = min(A, B);
+
+    public static void main(String[] args) {
+        System.out.println(MIN);
+    }
+
+    public static int min(int a, int b) {
+        return a < b ? a : b;
+    }
+}
