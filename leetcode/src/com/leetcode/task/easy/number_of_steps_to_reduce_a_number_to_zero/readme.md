@@ -32,5 +32,5 @@
 
 <h5>Constraints:</h5>
 <ul>
-    <li><code>0 <= num <= 106</code></li>
+    <li><code>0 <= num <= 10<sup>6</sup></code></li>
 </ul>

@@ -21,5 +21,5 @@
 
 <h5>Constraints:</h5>
 <ul>
-    <li><code>1 <= n <= 104</code></li>
+    <li><code>1 <= n <= 10<sup>4</sup></code></li>
 </ul>
