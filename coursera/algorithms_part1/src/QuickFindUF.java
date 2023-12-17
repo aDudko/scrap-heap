@@ -1,11 +1,11 @@
 public class QuickFindUF {
 
-    private int[] id;
+    private final int[] id;
 
     public QuickFindUF(int N) {
-        id = new[N];
+        id = new int[N];
         for (int i = 0; i < N; i++) {
-            int[i] = i;
+            id[i] = i;
         }
     }
 
@@ -13,7 +13,7 @@ public class QuickFindUF {
         return id[p] == id[q];
     }
 
-    public void  unuon(int p, int q) {
+    public void unuon(int p, int q) {
         int pid = id[p];
         int qid = id[q];
         for (int i = 0; i < id.length; i++) {
@@ -22,5 +22,4 @@ public class QuickFindUF {
             }
         }
     }
-
 }

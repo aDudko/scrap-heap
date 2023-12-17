@@ -1,10 +1,10 @@
 public class QuickUnionUF {
 
-    private int[] id;
+    private final int[] id;
 
-    public QuickUnionUF(int N) {
-        id = int[N];
-        for (int i = 0; i < N; i++) {
+    public QuickUnionUF(int n) {
+        id = new int[n];
+        for (int i = 0; i < n; i++) {
             id[i] = i;
         }
     }
@@ -12,8 +12,8 @@ public class QuickUnionUF {
     private int root(int i) {
         while (i != id[i]) {
             i = id[i];
-            return i;
         }
+        return i;
     }
 
     public boolean connected(int p, int q) {
@@ -25,5 +25,4 @@ public class QuickUnionUF {
         int j = root(q);
         id[i] = j;
     }
-
 }
