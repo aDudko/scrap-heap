@@ -1,4 +1,6 @@
-<h4>Given two sorted arrays <code>nums1</code> and <code>nums2</code> of size m and n respectively, return <b>the median</b> of the two sorted arrays.</h4>
+<h3>Median of Two Sorted Arrays</h3>
+
+<p>Given two sorted arrays <code>nums1</code> and <code>nums2</code> of size <code>m</code> and <code>n</code> respectively, return <b>the median</b> of the two sorted arrays.</p>
 
 <p>The overall run time complexity should be <code>O(log (m+n))</code>.</p>
 

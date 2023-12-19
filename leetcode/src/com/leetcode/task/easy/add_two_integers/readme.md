@@ -1,4 +1,6 @@
-<h4>Given two integers <code>num1</code> and <code>num2</code>, return the sum of the two integers.</h4>
+<h3>Add Two Integers</h3>
+
+<p>Given two integers <code>num1</code> and <code>num2</code>, return the sum of the two integers.</p>
 
 <h6>Example 1:</h6>
 <p><b>Input:</b> <code>num1 = 12, num2 = 5</code></p>

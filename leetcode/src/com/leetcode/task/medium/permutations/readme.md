@@ -1,4 +1,6 @@
-<h4>Given an array <code>nums</code> of distinct integers, return <i>all the possible permutations</i>. You can return the answer in <b>any order</b>.</h4>
+<h3>Permutations</h3>
+
+<p>Given an array <code>nums</code> of distinct integers, return <i>all the possible permutations</i>. You can return the answer in <b>any order</b>.</p>
 
 <h6>Example 1:</h6>
 <p><b>Input:</b> <code>nums = [1, 2, 3]</code></p>

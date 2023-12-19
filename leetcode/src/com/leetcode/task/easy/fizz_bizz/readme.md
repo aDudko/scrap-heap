@@ -1,10 +1,11 @@
-<h4>Given an integer <code>n</code>, return a string array <code>answer</code> (1-indexed) where:</h4>
+<h3>Fizz-Bizz</h3>
 
+<p>Given an integer <code>n</code>, return a string array <code>answer</code> <b>(1-indexed)</b> where:</p>
 <ul>
-<li><code>answer[i] == "FizzBuzz"</code> if <code>i</code> is divisible by <code>3</code> and <code>5</code>.</li>
-<li><code>answer[i] == "Fizz"</code> if <code>i</code> is divisible by <code>3</code>.</li>
-<li><code>answer[i] == "Buzz"</code> if <code>i</code> is divisible by <code>5</code>.</li>
-<li><code>answer[i] == i</code> (as a string) if none of the above conditions are true.</li>
+    <li><code>answer[i] == "FizzBuzz"</code> if <code>i</code> is divisible by <code>3</code> and <code>5</code>.</li>
+    <li><code>answer[i] == "Fizz"</code> if <code>i</code> is divisible by <code>3</code>.</li>
+    <li><code>answer[i] == "Buzz"</code> if <code>i</code> is divisible by <code>5</code>.</li>
+    <li><code>answer[i] == i</code> (as a string) if none of the above conditions are true.</li>
 </ul>
 
 <h6>Example 1:</h6>

@@ -1,4 +1,6 @@
-<h4>Given an integer array <code>nums</code> and an integer <code>k</code>, return <i>the <code>k<sup>th</sup></code> largest element in the array</i>.</h4>
+<h3>K<sup>th</sup> Largest Element in an Array</h3>
+
+<p>Given an integer array <code>nums</code> and an integer <code>k</code>, return <i>the <code>k<sup>th</sup></code> largest element in the array</i>.</p>
 
 <p>Note that it is the <code>k<sup>th</sup></code> largest element in the sorted order, not the <code>k<sup>th</sup></code> distinct element.</p>
 <p>Can you solve it without sorting?</p>
@@ -13,6 +15,6 @@
 
 <h5>Constraints:</h5>
 <ul>
-<li><code>1 <= k <= nums.length <= 10<sup>5</sup></code></li>
-<li><code>-10<sup>4</sup> <= nums[i] <= 10<sup>4</sup></code></li>
+    <li><code>1 <= k <= nums.length <= 10<sup>5</sup></code></li>
+    <li><code>-10<sup>4</sup> <= nums[i] <= 10<sup>4</sup></code></li>
 </ul>

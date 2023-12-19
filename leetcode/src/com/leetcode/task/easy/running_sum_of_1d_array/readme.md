@@ -1,6 +1,6 @@
-<h4>Given an array <code>nums</code>. We define a running sum of an array as <code>runningSum[i] = sum(nums[0] … nums[i])</code>.</h4>
+<h3>Running Sum of 1<sup>d</sup> Array</h3>
 
-<h5>Return the running sum of <code>nums</code>.</h5>
+<p>Given an array <code>nums</code>. We define a running sum of an array as <code>runningSum[i] = sum(nums[0] … nums[i])</code>. Return <i>the running sum of <code>nums</code></i>.</p>
 
 <h6>Example 1:</h6>
 <p><b>Input:</b> <code>nums = [1, 2, 3, 4]</code></p>

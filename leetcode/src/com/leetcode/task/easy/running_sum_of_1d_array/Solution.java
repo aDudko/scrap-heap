@@ -1,4 +1,4 @@
-package com.leetcode.task.easy.running_sum_of_1d_arry;
+package com.leetcode.task.easy.running_sum_of_1d_array;
 
 import java.util.Arrays;
 

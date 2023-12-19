@@ -1,7 +1,7 @@
-<h4>Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.</h4>
+<h3>Two Sum</h3>
 
-<p>You may assume that each input would have <b>exactly one solution</b>, and you may not use the same element twice.</p>
-
+<p>Given an array of integers nums and an integer target, return <i>indices of the two numbers such that they add up to target</i>.</p>
+<p>You may assume that each input would have <b>exactly one solution</b>, and you may not use the <i>same</i> element twice.</p>
 <p>You can return the answer in any order.</p>
 
 <h6>Example 1:</h6>

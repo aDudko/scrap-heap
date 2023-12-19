@@ -1,4 +1,6 @@
-<h4>Given an integer array <code>nums</code>, return <i>the most frequent even element</i>.</h4>
+<h3>Most Frequent Even Element</h3>
+
+<p>Given an integer array <code>nums</code>, return <i>the most frequent even element</i>.</p>
 <p>If there is a tie, return the <b>smallest</b> one. If there is no such element, return <code>-1</code>.</p>
 
 <h6>Example 1:</h6>
@@ -18,6 +20,6 @@
 
 <h5>Constraints:</h5>
 <ul>
-<li><code>1 <= nums.length <= 2000</code></li>
-<li><code>0 <= nums[i] <= 10<sup>5</sup></code></li>
+    <li><code>1 <= nums.length <= 2000</code></li>
+    <li><code>0 <= nums[i] <= 10<sup>5</sup></code></li>
 </ul>

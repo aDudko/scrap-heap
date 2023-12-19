@@ -1,6 +1,8 @@
-<h4>Given an integer <code>num</code>, return the number of steps to reduce it to zero.</h4>
-<h5>In one step, if the current number is even, you have to divide it by <code>2</code>, otherwise, you have to subtract
-<code>1</code> from it.</h5>
+<h3>Number of Steps to Reduce a Number to Zero</h3>
+
+<p>Given an integer <code>num</code>, return <i>the number of steps to reduce it to zero</i>.</p>
+<p>In one step, if the current number is even, you have to divide it by <code>2</code>, otherwise, you have to subtract
+<code>1</code> from it.</p>
 
 <h6>Example 1:</h6>
 <p><b>Input:</b> <code>num = 14</code></p>

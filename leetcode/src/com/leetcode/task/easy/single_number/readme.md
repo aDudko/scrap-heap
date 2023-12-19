@@ -1,4 +1,6 @@
-<h4>Given a non-empty array of integers <code>nums</code>, every element appears twice except for one. Find that single one.</h4>
+<h3>Single Number</h3>
+
+<p>Given a <b>non-empty</b> array of integers <code>nums</code>, every element appears twice except for one. Find that single one.</p>
 <p>You must implement a solution with a linear runtime complexity and use only constant extra space.</p>
 
 <h6>Example 1:</h6>
