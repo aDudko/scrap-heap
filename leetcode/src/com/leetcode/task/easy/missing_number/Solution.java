@@ -9,7 +9,7 @@ public class Solution {
 
     public static int missingNumber(int[] nums) {
         int N = nums.length;
-        int sum = N * (N + 1) / 2;
+        int sum = N * (N + 1) / 2; // expected sum of elements
         for (int num : nums) {
             sum -= num;
         }
