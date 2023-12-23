@@ -10,7 +10,7 @@
 <p>Return <code>true</code> if such pair exists or <code>false</code> otherwise.</p>
 
 <h6>Example 1:</h6>
-<p><b>Input:</b> <code>>nums = [1,2,3,1], indexDiff = 3, valueDiff = 0</code></p>
+<p><b>Input:</b> <code>nums = [1,2,3,1], indexDiff = 3, valueDiff = 0</code></p>
 <p><b>Output:</b> <code>true</code></p>
 <p><b>Explanation:</b> <code>We can choose (i, j) = (0, 3).
 We satisfy the three conditions:
