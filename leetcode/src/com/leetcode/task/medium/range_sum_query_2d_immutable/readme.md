@@ -16,7 +16,9 @@
 <p>You must design an algorithm where <code>sumRegion</code> works on <code>O(1)</code> time complexity.</p>
 
 <h6>Example 1:</h6>
+
 ![img.png](img.png)<br>
+
 <p><b>Input:</b> <code><br>
 ["NumMatrix", "sumRegion", "sumRegion", "sumRegion"]<br>
 [[[[3, 0, 1, 4, 2], [5, 6, 3, 2, 1], [1, 2, 0, 1, 5], [4, 1, 0, 1, 7], [1, 0, 3, 0, 5]]], [2, 1, 4, 3], [1, 1, 2, 2], [1, 2, 2, 4]]</code></p>
