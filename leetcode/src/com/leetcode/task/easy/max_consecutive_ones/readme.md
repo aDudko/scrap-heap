@@ -5,7 +5,8 @@
 <h6>Example 1:</h6>
 <p><b>Input:</b> <code>nums = [1,1,0,1,1,1]</code></p>
 <p><b>Output:</b> <code>3</code></p>
-Explanation: The first two digits or the last three digits are consecutive 1s. The maximum number of consecutive 1s is 3.
+<p><b>Explanation:</b> <code>The first two digits or the last three digits are consecutive 1s. 
+The maximum number of consecutive 1s is 3.</code></p>
 
 <h6>Example 2:</h6>
 <p><b>Input:</b> <code>nums = [1,0,1,1,0,1]</code></p>
