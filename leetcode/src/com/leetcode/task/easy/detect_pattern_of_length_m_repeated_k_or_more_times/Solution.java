@@ -1,11 +1,10 @@
 package com.leetcode.task.easy.detect_pattern_of_length_m_repeated_k_or_more_times;
 
-
 public class Solution {
     public static void main(String[] args) {
-        System.out.println(containsPattern(new int[]{1, 2, 4, 4, 4, 4}, 1, 3));      // true
-        System.out.println(containsPattern(new int[]{1, 2, 1, 2, 1, 1, 1, 3}, 2, 2));  // true
-        System.out.println(containsPattern(new int[]{1, 2, 1, 2, 1, 3}, 2, 3));      // false
+        System.out.println(containsPattern(new int[]{1, 2, 4, 4, 4, 4}, 1, 3));         // true
+        System.out.println(containsPattern(new int[]{1, 2, 1, 2, 1, 1, 1, 3}, 2, 2));   // true
+        System.out.println(containsPattern(new int[]{1, 2, 1, 2, 1, 3}, 2, 3));         // false
     }
 
     // two-pointer

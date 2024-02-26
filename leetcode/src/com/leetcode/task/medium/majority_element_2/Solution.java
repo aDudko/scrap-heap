@@ -6,11 +6,11 @@ import java.util.HashMap;
 
 public class Solution {
     public static void main(String[] args) {
-        System.out.println(majorityElement(new int[]{3,2,3}));      // 3
-        System.out.println(majorityElement(new int[]{1}));          // 1
-        System.out.println(majorityElement(new int[]{1,2}));        // 1, 2
-        System.out.println(majorityElement(new int[]{1,2,2,3,3}));  // 2, 3
-        System.out.println(majorityElement(new int[]{2,2}));        // 2
+        System.out.println(majorityElement(new int[]{3, 2, 3}));        // 3
+        System.out.println(majorityElement(new int[]{1}));              // 1
+        System.out.println(majorityElement(new int[]{1, 2}));           // 1, 2
+        System.out.println(majorityElement(new int[]{1, 2, 2, 3, 3}));  // 2, 3
+        System.out.println(majorityElement(new int[]{2, 2}));           // 2
     }
 
     public static List<Integer> majorityElement(int[] nums) {

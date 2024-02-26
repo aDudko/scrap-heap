@@ -2,8 +2,8 @@ package com.leetcode.task.medium.combination_sum_4;
 
 public class Solution {
     public static void main(String[] args) {
-        System.out.println(combinationSum4(new int[]{1,2,3}, 4)); // 7
-        System.out.println(combinationSum4(new int[]{9}, 3));     // 0
+        System.out.println(combinationSum4(new int[]{1, 2, 3}, 4)); // 7
+        System.out.println(combinationSum4(new int[]{9}, 3));       // 0
     }
 
     public static int combinationSum4(int[] nums, int target) {

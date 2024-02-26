@@ -1,4 +1,5 @@
-<h3>Remove Duplicates from Sorted Array</h3>
+<h2>Remove Duplicates from Sorted Array</h2>
+
 
 <p>Given an integer array <code>nums</code> sorted <b>in non-decreasing order</b>, remove the duplicates 
 <a href="https://en.wikipedia.org/wiki/In-place_algorithm">in-place</a> such that each unique element appears only once. 
@@ -12,19 +13,21 @@ The <b>relative order</b> of the elements should be kept the <b>same</b>. Then r
     <li>Return <code>k</code>.</li>
 </ul>
 
-<h6>Example 1:</h6>
+
+<h3>Example 1:</h3>
 <p><b>Input:</b> <code>nums = [1, 1, 2]</code></p>
 <p><b>Output:</b> <code>2, nums = [1, 2, _]</code></p>
 <p><b>Explanation:</b> <code>Your function should return k = 2, with the first two elements of nums being 1 and 2 respectively.
 It does not matter what you leave beyond the returned k (hence they are underscores).</code></p>
 
-<h6>>Example 2:</h6>
+<h3>Example 2:</h3>
 <p><b>Input:</b> <code>nums = [0, 0, 1, 1, 1, 2, 2, 3, 3, 4]</code></p>
 <p><b>Output:</b> <code>5, nums = [0, 1, 2, 3, 4, _, _, _, _, _]</code></p>
 <p><b>Explanation:</b> <code>Your function should return k = 5, with the first five elements of nums being 0, 1, 2, 3, and 4 respectively.
 It does not matter what you leave beyond the returned k (hence they are underscores).</code></p>
 
-<h5>Constraints:</h5>
+
+<h3>Constraints:</h3>
 <ul>
     <li><code>1 <= nums.length <= 3 * 10<sup>4</sup></code></li>
     <li><code>-100 <= nums[i] <= 100</code></li>

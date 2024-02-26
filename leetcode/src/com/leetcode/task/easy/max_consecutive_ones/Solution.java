@@ -2,8 +2,8 @@ package com.leetcode.task.easy.max_consecutive_ones;
 
 public class Solution {
     public static void main(String[] args) {
-        System.out.println(findMaxConsecutiveOnes(new int[]{1,1,0,1,1,1}));  // 3
-        System.out.println(findMaxConsecutiveOnes(new int[]{1,0,1,1,0,1}));  // 2
+        System.out.println(findMaxConsecutiveOnes(new int[]{1, 1, 0, 1, 1, 1}));  // 3
+        System.out.println(findMaxConsecutiveOnes(new int[]{1, 0, 1, 1, 0, 1}));  // 2
     }
 
     public static int findMaxConsecutiveOnes(int[] nums) {

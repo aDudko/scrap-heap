@@ -8,9 +8,10 @@ import java.util.Objects;
 
 public class Solution {
     public static void main(String[] args) {
-        System.out.println(commonChars(new String[]{"bella","label","roller"})); // ["e","l","l"]
-        System.out.println(commonChars(new String[]{"cool","lock","cook"}));     // ["c","o"]
-        System.out.println(commonChars(new String[]{"acabcddd","bcbdbcbd","baddbadb","cbdddcac","aacbcccd","ccccddda","cababaab","addcaccd"})); // []
+        System.out.println(commonChars(new String[]{"bella","label","roller"}));    // ["e","l","l"]
+        System.out.println(commonChars(new String[]{"cool","lock","cook"}));        // ["c","o"]
+        System.out.println(commonChars(new String[]{"acabcddd","bcbdbcbd","baddbadb","cbdddcac",
+                "aacbcccd","ccccddda","cababaab","addcaccd"}));                     // []
     }
 
     public static List<String> commonChars(String[] words) {

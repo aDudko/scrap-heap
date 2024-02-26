@@ -4,9 +4,9 @@ import java.util.Arrays;
 
 public class Solution {
     public static void main(String[] args) {
-        System.out.println(Arrays.toString(plusOne(new int[]{1,2,3})));
-        System.out.println(Arrays.toString(plusOne(new int[]{4,3,2,1})));
-        System.out.println(Arrays.toString(plusOne(new int[]{9})));
+        System.out.println(Arrays.toString(plusOne(new int[]{1, 2, 3})));       // [1, 2, 4]
+        System.out.println(Arrays.toString(plusOne(new int[]{4, 3, 2, 1})));    // [4, 3, 2, 2]
+        System.out.println(Arrays.toString(plusOne(new int[]{9})));             // [1, 0]
     }
 
     public static int[] plusOne(int[] digits) {

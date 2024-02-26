@@ -6,8 +6,12 @@ public class Solution {
     public static void main(String[] args) {
         int[] ints1 = {1, 2};
         int[] ints2 = {3, 4};
-        System.out.println(Arrays.deepToString(matrixReshape(new int[][]{ints1, ints2}, 1, 4)));
-        System.out.println(Arrays.deepToString(matrixReshape(new int[][]{ints1, ints2}, 2, 4)));
+        System.out.println(Arrays.deepToString(
+                matrixReshape(new int[][]{ints1, ints2}, 1, 4)
+        ));   // [[1, 2, 3, 4]]
+        System.out.println(Arrays.deepToString(
+                matrixReshape(new int[][]{ints1, ints2}, 2, 4)
+        ));   // [[1, 2], [3, 4]]
     }
 
     public static int[][] matrixReshape(int[][] mat, int r, int c) {

@@ -2,8 +2,8 @@ package com.leetcode.task.easy.remove_duplicates_from_sorted_array;
 
 public class Solution {
     public static void main(String[] args) {
-        System.out.println(removeDuplicates(new int[]{1,1,2}));
-        System.out.println(removeDuplicates(new int[]{0,0,1,1,1,2,2,3,3,4}));
+        System.out.println(removeDuplicates(new int[]{1, 1, 2}));   // 2
+        System.out.println(removeDuplicates(new int[]{0, 0, 1, 1, 1, 2, 2, 3, 3, 4}));  // 5
     }
 
     public static int removeDuplicates(int[] nums) {

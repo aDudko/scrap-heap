@@ -2,9 +2,9 @@ package com.leetcode.task.easy.best_time_to_buy_and_sell_stock;
 
 public class Solution {
     public static void main(String[] args) {
-        System.out.println(maxProfit(new int[]{7,1,5,3,6,4}));
-        System.out.println(maxProfit(new int[]{7,6,4,3,1}));
-        System.out.println(maxProfit(new int[]{7,6,5,1,2,3,4}));
+        System.out.println(maxProfit(new int[]{7, 1, 5, 3, 6, 4}));     // 5
+        System.out.println(maxProfit(new int[]{7, 6, 4, 3, 1}));        // 0
+        System.out.println(maxProfit(new int[]{7, 6, 5, 1, 2, 3, 4}));  // 3
     }
 
     public static int maxProfit(int[] prices) {

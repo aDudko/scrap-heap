@@ -4,11 +4,11 @@ import java.util.TreeSet;
 
 public class Solution {
     public static void main(String[] args) {
-        System.out.println(thirdMax(new int[]{3,2,1}));     // 1
-        System.out.println(thirdMax(new int[]{1,2}));       // 2
-        System.out.println(thirdMax(new int[]{1,1,1,2,2})); // 2
-        System.out.println(thirdMax(new int[]{2,2,3,1}));   // 1
-        System.out.println(thirdMax(new int[]{2,3,2,1}));   // 1
+        System.out.println(thirdMax(new int[]{3, 2, 1}));       // 1
+        System.out.println(thirdMax(new int[]{1, 2}));          // 2
+        System.out.println(thirdMax(new int[]{1, 1, 1, 2, 2})); // 2
+        System.out.println(thirdMax(new int[]{2, 2, 3, 1}));    // 1
+        System.out.println(thirdMax(new int[]{2, 3, 2, 1}));    // 1
     }
 
     public static int thirdMax(int[] nums) {

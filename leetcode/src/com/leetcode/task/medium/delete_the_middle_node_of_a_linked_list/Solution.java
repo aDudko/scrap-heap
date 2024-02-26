@@ -3,11 +3,11 @@ package com.leetcode.task.medium.delete_the_middle_node_of_a_linked_list;
 public class Solution {
     public static void main(String[] args) {
         ListNode test1 = new ListNode(1, new ListNode(3, new ListNode(4, new ListNode(7, new ListNode(1, new ListNode(2, new ListNode(6)))))));
-        printList(deleteMiddle(test1));
+        printList(deleteMiddle(test1));     // 1 -> 3 -> 4 -> 1 -> 2 -> 6 -> null
         ListNode test2 = new ListNode(1, new ListNode(2, new ListNode(3, new ListNode(4))));
-        printList(deleteMiddle(test2));
+        printList(deleteMiddle(test2));     // 1 -> 2 -> 4 -> null
         ListNode test3 = new ListNode(2, new ListNode(1));
-        printList(deleteMiddle(test3));
+        printList(deleteMiddle(test3));     // 2 -> null
     }
 
     public static void printList(ListNode head) {

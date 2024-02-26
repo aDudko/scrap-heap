@@ -2,9 +2,9 @@ package com.leetcode.task.easy.most_frequent_even_element;
 
 public class Solution {
     public static void main(String[] args) {
-        System.out.println(mostFrequentEven(new int[]{0,1,2,2,4,4,1}));          // 2
-        System.out.println(mostFrequentEven(new int[]{4,4,4,9,2,4}));            // 4
-        System.out.println(mostFrequentEven(new int[]{29,47,21,41,13,37,25,7})); // -1
+        System.out.println(mostFrequentEven(new int[]{0, 1, 2, 2, 4, 4, 1}));           // 2
+        System.out.println(mostFrequentEven(new int[]{4, 4, 4, 9, 2, 4}));              // 4
+        System.out.println(mostFrequentEven(new int[]{29, 47, 21, 41, 13, 37, 25, 7})); // -1
     }
 
     public static int mostFrequentEven(int[] nums) {

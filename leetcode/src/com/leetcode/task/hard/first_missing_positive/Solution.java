@@ -4,9 +4,9 @@ import java.util.Arrays;
 
 public class Solution {
     public static void main(String[] args) {
-        System.out.println(firstMissingPositive(new int[]{1,2,0}));       // 3
-        System.out.println(firstMissingPositive(new int[]{3,4,-1,1}));    // 2
-        System.out.println(firstMissingPositive(new int[]{7,8,9,11,12})); // 1
+        System.out.println(firstMissingPositive(new int[]{1, 2, 0}));           // 3
+        System.out.println(firstMissingPositive(new int[]{3, 4, -1, 1}));       // 2
+        System.out.println(firstMissingPositive(new int[]{7, 8, 9, 11, 12}));   // 1
     }
 
     public static int firstMissingPositive(int[] nums) {

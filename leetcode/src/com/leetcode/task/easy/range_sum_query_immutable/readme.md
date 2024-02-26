@@ -1,4 +1,5 @@
-<h3>Range Sum Query - Immutable</h3>
+<h2>Range Sum Query - Immutable</h2>
+
 
 <p>Given an integer array <code>nums</code>, handle multiple queries of the following type:</p>
 <ul>
@@ -14,7 +15,7 @@
     (i.e. <code>nums[left] + nums[left + 1] + ... + nums[right]</code>)</li>
 </ul>
 
-<h6>Example 1:</h6>
+<h3>Example 1:</h3>
 <p><b>Input:</b> <code><br>
 ["NumArray", "sumRange", "sumRange", "sumRange"]<br>
 [[[-2, 0, 3, -5, 2, -1]], [0, 2], [2, 5], [0, 5]]</code></p>
@@ -26,7 +27,7 @@ numArray.sumRange(2, 5); // return 3 + (-5) + 2 + (-1) = -1<br>
 numArray.sumRange(0, 5); // return (-2) + 0 + 3 + (-5) + 2 + (-1) = -3</code></p>
 
 
-<h5>Constraints:</h5>
+<h3>Constraints:</h3>
 <ul>
     <li><code>1 <= nums.length <= 10<sup>4</sup></code></li>
     <li><code>-10<sup>5</sup> <= nums[i] <= 10<sup>5</sup></code></li>

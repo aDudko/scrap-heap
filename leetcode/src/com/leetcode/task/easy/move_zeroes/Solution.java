@@ -2,8 +2,8 @@ package com.leetcode.task.easy.move_zeroes;
 
 public class Solution {
     public static void main(String[] args) {
-        moveZeroes(new int[]{0,1,0,3,12});  // [1,3,12,0,0]
-        moveZeroes(new int[]{0});           // [0]
+        moveZeroes(new int[]{0, 1, 0, 3, 12});  // [1, 3, 12, 0, 0]
+        moveZeroes(new int[]{0});               // [0]
     }
 
     public static void moveZeroes(int[] nums) {

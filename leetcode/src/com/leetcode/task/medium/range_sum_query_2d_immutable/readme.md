@@ -1,4 +1,5 @@
-<h3>Range Sum Query 2D - Immutable</h3>
+<h2>Range Sum Query 2D - Immutable</h2>
+
 
 <p>Given a 2D matrix <code>matrix</code>, handle multiple queries of the following type:</p>
 <ul>
@@ -13,9 +14,11 @@
         <code>matrix</code> inside the rectangle defined by its <b>upper left corner</b> <code>(row1, col1)</code> and 
         <b>lower right corner</b> <code>(row2, col2)</code>.</li>
 </ul>
+
 <p>You must design an algorithm where <code>sumRegion</code> works on <code>O(1)</code> time complexity.</p>
 
-<h6>Example 1:</h6>
+
+<h3>Example 1:</h3>
 
 ![img.png](img.png)<br>
 
@@ -30,7 +33,7 @@ numMatrix.sumRegion(1, 1, 2, 2); // return 11 (i.e sum of the green rectangle)<b
 numMatrix.sumRegion(1, 2, 2, 4); // return 12 (i.e sum of the blue rectangle)</code></p>
 
 
-<h5>Constraints:</h5>
+<h3>Constraints:</h3>
 <ul>
     <li><code>m == matrix.length</code></li>
     <li><code>n == matrix[i].length</code></li>
