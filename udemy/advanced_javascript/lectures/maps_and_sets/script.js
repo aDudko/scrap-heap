@@ -8,9 +8,10 @@
 //  * - add(), delete(), size(), has() и т.д
 //  */
 
+
 // /**
 //  *  === Array ===
-// */
+//  */
 //
 // const flights = ['Russia', 'NY', 'London', 'USA', 'London', 1, false];
 //
@@ -91,9 +92,11 @@
 // console.log([...wetherMap3.keys()]);
 // console.log([...wetherMap3.values()]);
 //
-/**
- * УПРАЖНЕНИЕ: Необходимо поменять местами ключи и значения
- */
+
+
+// /**
+//  * УПРАЖНЕНИЕ: Необходимо поменять местами ключи и значения
+//  */
 //
 // wetherMap3 = new Map([...wetherMap3].map(el => el.reverse()));
 // console.log(wetherMap3);

@@ -27,6 +27,7 @@
 //     this.style.backgroundColor = 'green';
 // });
 
+
 // /**
 //  * === Делегирование событий ===
 //  */
@@ -54,6 +55,7 @@
 //     console.log(`Deleted user id: ${id}`);
 // });
 
+
 // /**
 //  * === Перемещение по DOM-дереву ===
 //  */
@@ -70,6 +72,7 @@
 // // Поиск соседей
 // console.log(button.nextElementSibling);
 // console.log(button.parentElement.children);
+
 
 // /**
 //  * === Жизненный цикл событий DOM ===
@@ -92,6 +95,7 @@
 //     event.preventDefault();
 //     event.returnValue = '';
 // });
+
 
 // /**
 //  * УПРАЖНЕНИЕ: Поиск по списку
@@ -122,8 +126,9 @@
 //     }
 // }
 
-/**
- * === Async и defer ===
- */
+
+// /**
+//  * === Async и defer ===
+//  */
 // defer - использовать для скриптов полагающихся на DOM-дерево
 // async - для скриптов не полагающихся на DOM-дерево: метрики и т.п.

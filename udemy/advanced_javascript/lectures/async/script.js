@@ -7,6 +7,7 @@
 //  * Асинхронная операция - передача операций для выполнения на стороне
 //  */
 //
+//
 // /**
 //  * === Запросы на сервер XMLHttpRequest ===
 //  * AJAX (Asynchronous JaavaScript and XML) - позволяет нам асинхронно
@@ -14,6 +15,7 @@
 //  * данных
 //  * JSON (JavaScript Object Notation) - формат описания объектов в JS
 //  */
+//
 //
 // function req(id) {
 //     // Пример отправки XMLHttpRequest
@@ -30,6 +32,7 @@
 // req(1);
 // console.log('end');
 
+
 // /**
 //  * УПРАЖНЕНИЕ: Получить среднюю цену из 30 продуктов из API
 //  * https://dummyjson.com/products
@@ -43,6 +46,7 @@
 //     const sum = products.reduce((acc, product) => acc += product.price, 0);
 //     console.log(sum / products.length);
 // });
+
 
 // /**
 //  * Callback Hell - при большом количестве вложенных запросов
@@ -63,6 +67,7 @@
 //         console.log(data);
 //     });
 // });
+
 
 // /**
 //  * === Promises and Fetch (ES6) ===
@@ -159,7 +164,8 @@
 //     .finally(() => {    // Отработает всегда
 //         console.log('Finally');
 //     });
-//
+
+
 // /**
 //  * УПРАЖНЕНИЕ: Сделать запрос на https://dummyjson.com/products/categories,
 //  * получить список категорий и отобразить <select> выбора категорий.
@@ -182,7 +188,8 @@
 // }
 //
 // getCategories();
-//
+
+
 // // Ручное создание ошибок
 // fetch('https://dummyjson.com/productss')
 //     .then(
@@ -204,7 +211,8 @@
 //         const element = document.querySelector('.filter');
 //         element.innerHTML = error.message;
 //     });
-//
+
+
 // /** 
 //  * УПРАЖНЕНИЕ: Функция запросов 
 //  * Написать функцию, которая принимает строку и текст ошибки и
@@ -232,7 +240,8 @@
 //         const element = document.querySelector('.filter');
 //         element.innerHTML = error.message;
 //     });
-//
+
+
 // /**
 //  * Event Loop
 // */
@@ -270,7 +279,8 @@
 //     .then(() => {
 //         console.log(1);
 //     })
-//
+
+
 // /**
 //  * УПРАЖНЕНИЕ: Создать функцию myFetch,
 //  * которая выполняет внутри XMLHttpRequest

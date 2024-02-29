@@ -21,6 +21,7 @@
 // console.log(user2);
 // console.log(user2 instanceof User);
 
+
 // /**
 //  * === Prototype ===
 //  * 
@@ -43,6 +44,7 @@
 // console.log(lordOfTheRing.__proto__ === Book.prototype);
 // console.log(Book.prototype.isPrototypeOf(lordOfTheRing));
 // console.log(Book.prototype.isPrototypeOf(Book));
+
 
 // /**
 //  * УПРАЖНЕНИЕ: Корзина товаров
@@ -127,7 +129,7 @@
 //
 // lordOfTheRings.isRead = true;       // Вызов Setter - Гавно какое-то!!!
 // console.log(lordOfTheRings.isRead);
-
+//
 // // Static
 //
 // class Book {
@@ -169,6 +171,7 @@
 //
 // const car = new Car();
 // car.test();
+
 
 // /**
 //  * УПРАЖНЕНИЕ: Реализовать класс пользователя, со свойствами
@@ -221,6 +224,7 @@
 // console.log(user.changePassword('123', '234'));
 // console.log(user);
 
+
 // /**
 //  * ===== Object.create() =====
 //  */
@@ -244,6 +248,7 @@
 // console.log(admin);
 // admin.log();
 // console.log(admin.email);
+
 
 // /**
 //  * === Абстракция и Инкапсуляция ===
@@ -276,6 +281,7 @@
 //
 // console.log(new Film('Avatar', 'Cameron', 240));
 
+
 // /**
 //  * === Наследование ===
 //  */
@@ -306,6 +312,7 @@
 // console.log(book);
 // console.log(book instanceof AudioBook);
 // console.log(book instanceof Book);
+
 
 // /**
 //  *=== Наследование в ES6 ===
@@ -339,6 +346,7 @@
 // console.log(book instanceof AudioBook);
 // console.log(book instanceof Book);
 
+
 // /**
 //  * === Перегрузка методов и свойств ===
 //  */
@@ -370,6 +378,7 @@
 //
 // const book2 = new EBook('Lord of the Rings', 'Tolkien', 100);
 // book2.info();
+
 
 // /**
 //  * === УПРАЖНЕНИЕ: Удар по орку ===
@@ -422,12 +431,14 @@
 // sword.strike(enemy);
 // sword.strike(enemy);
 
+
 // /**
 //  * === Полиморфизм ===
 //  * - Ad-hock полиморфизм - возможность по разному исполнять функцию в зависимости от типов данных
 //  * - Параметрический полимрфизм - выполнение одной и той же функции с разным типом аргументов
 //  * - Полиморфизм подтипов <-- ООП
 //  */
+
 
 // /**
 //  * === Паттерн Builder и Chaining
