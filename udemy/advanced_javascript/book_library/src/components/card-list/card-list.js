@@ -1,5 +1,5 @@
-import { DivComponent } from '../../common/div-component';
-import { Card } from '../card/card';
+import { DivComponent } from '../../common/div-component.js';
+import { Card } from '../card/card.js';
 import './card-list.css';
 
 

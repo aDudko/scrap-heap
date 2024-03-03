@@ -1,5 +1,5 @@
-import { FavoritesView } from './views/favorites/favorites';
-import { MainView } from './views/main/main';
+import { FavoritesView } from './views/favorites/favorites.js';
+import { MainView } from './views/main/main.js';
 
 
 class App {
