@@ -9,7 +9,7 @@
 //  *     object          object
 //  *     Array           Array
 //  *     Tuples          Array
-//  *     Enum  
+//  *     Enum            function
 //  */
 //
 // /**
