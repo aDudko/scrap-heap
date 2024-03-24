@@ -226,6 +226,7 @@
 //  * Product: id, название и цена
 //  * Delivery: может быть как до дома (дата и адрес) или до пункта выдачи (дата = Сегодня и Id магазина)
 //  */
+//
 // class Product {
 //     constructor(
 //         public id: number,
